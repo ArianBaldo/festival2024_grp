@@ -313,9 +313,7 @@ input, select, textarea {
 	}
 
 	#ticket-nospace {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
+		margin-bottom: 3%;
 	}
 
 /* Row */
@@ -3404,8 +3402,12 @@ img {vertical-align: middle;}
 }
 
 #carre-ticket {
-	background-color: #7bd0c1;
+	background-image: linear-gradient(#F96B3D, #F5CC4B); 
 	padding-top: 1%;
 	padding-left: 1%;
 	padding-bottom: -1%;
+}
+
+.link-pdf {
+	font-weight: 800;
 }
