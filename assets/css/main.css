@@ -312,6 +312,12 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	#ticket-nospace {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
 /* Row */
 
 	.row {
@@ -2378,12 +2384,12 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		width: 100%;
 	}
 
 		table tbody tr {
-			border: solid 1px #c9c9c9;
+			border-bottom: solid 2px #c9c9c9;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2399,16 +2405,16 @@ input, select, textarea {
 		table th {
 			font-size: 0.9em;
 			font-weight: 900;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0 0 0.75em 0.75em;
 			text-align: left;
 		}
 
 		table thead {
-			border-bottom: solid 2px #c9c9c9;
+			border-bottom: none;
 		}
 
 		table tfoot {
-			border-top: solid 2px #c9c9c9;
+			border-top: none;
 		}
 
 		table.alt {
@@ -2436,6 +2442,7 @@ input, select, textarea {
 			table.alt tfoot {
 				border-top: 0;
 			}
+
 
 /* Button */
 
@@ -2561,6 +2568,11 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+	#button-ticket {
+		font-size: 0.6em;
+		height: 3.5em;
+	}	
+
 /* Tiles */
 
 	.tiles {
@@ -2572,7 +2584,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -3389,4 +3401,11 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+#carre-ticket {
+	background-color: #7bd0c1;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-bottom: -1%;
 }
