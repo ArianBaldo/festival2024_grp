@@ -3411,3 +3411,8 @@ img {vertical-align: middle;}
 .link-pdf {
 	font-weight: 800;
 }
+
+#tiles-benevole {
+	display: flex;
+	justify-content: center;
+}
