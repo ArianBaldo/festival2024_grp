@@ -2566,7 +2566,7 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
-	#button-ticket {
+	.button-ticket {
 		font-size: 0.6em;
 		height: 3.5em;
 	}	
