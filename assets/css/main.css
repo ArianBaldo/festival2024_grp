@@ -312,7 +312,7 @@ input, select, textarea {
 		text-align: right;
 	}
 
-	#ticket-nospace {
+	.ticket-nospace {
 		margin-bottom: 3%;
 	}
 
@@ -3401,18 +3401,17 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 
-#carre-ticket {
+.carre-ticket {
 	background-image: linear-gradient(#F96B3D, #F5CC4B); 
 	padding-top: 1%;
 	padding-left: 1%;
-	padding-bottom: -1%;
 }
 
 .link-pdf {
 	font-weight: 800;
 }
 
-#tiles-benevole {
+.tiles-benevole {
 	display: flex;
 	justify-content: center;
 }
