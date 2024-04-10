@@ -3415,26 +3415,21 @@ img {vertical-align: middle;}
 	display: flex;
 	justify-content: center;
 }
-.navbar {
+.navbar
 	ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: ;
 }
 
-li {
+.navbar ul li {
   float: left;
 }
 
-li a {
+.navbar ul li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #;
 }
