@@ -3414,6 +3414,7 @@ img {vertical-align: middle;}
 .tiles-benevole {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 8%;
 }
 .navbar
 	ul {
