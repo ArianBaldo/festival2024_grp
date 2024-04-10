@@ -3415,3 +3415,33 @@ img {vertical-align: middle;}
 	display: flex;
 	justify-content: center;
 }
+.navbar
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.img-specific {
+  width: 525; /* Ajustez à la largeur souhaitée */
+  height: 525px; /* Ajustez à la hauteur souhaitée */ 	
+  margin-bottom : 2%;
+}	
+
+
+.boxrest{
+	display: flex;
+    justify-content: flex-start ;
+}
